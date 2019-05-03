@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans');
+
+body {
+    font-family: 'Roman', 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+.brand-logo, h1, h2, h3, h4, h5 {
+    font-family: 'Roman', 'Crimson Text', 'Times New Roman', Times, serif !important;
+}
+
+.sidenav {
+    color: black !important;
+}
+
+#map {
+    height: 300px;
+}
+
+.card-height {
+    height: 245px;
+}
