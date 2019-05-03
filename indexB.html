@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- W3 schools CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/w3css/3/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+     <!-- Google API CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <!-- IndexB CSS -->
+    <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
+
+    
+<head>
+    <title>Rumble Router</title>
+</head>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+<body><font face = "roman">
+    <nav class="w3-bar w3-black"><font face = "roman"> <font size = "5">
+  <a href="index.html" class="w3-button w3-bar-item"><img border="0" alt="Rating" src="./assets/img/rating.png" width="45" height="45">Rumble</a>
+  
+  <a href="aboutus.html" class="w3-button w3-bar-item"><img border="0" alt="Question" src="./assets/img/question.png" width="30" height="30">About Us</a>
+ 
+  <a href="start.html" class="w3-button w3-bar-item"><img border="0" alt="Cutlery" src="./assets/img/cutlery.png" width="30" height="30">Start</a>
+ 
+  <a href="contact.html" class="w3-button w3-bar-item"><img border="0" alt="Notification" src="./assets/img/phone-call.png" width="30" height="30">Contact</a>
+
+  <a href="indexB.html" class="w3-button w3-bar-item"><img border="0" alt="Router" src="./assets/img/route.png" width="40" height="40">Route</a>
+</nav>
+   
+
+    <div class="container">
+<h><font face = "roman"> <font size = "31"> Need a Ride? </font>  </font>
+</h>
+        <div class="row center" id="main-row">
+            <div class="col s12 m12" id="input-col">
+                <form id="location-form">
+                    <label for="address-input"><font face = "roman">Current Address</label><font face = "roman">
+                    <input class="form-control" id="address" type="text" placeholder="125 Spence St, College Station TX">
+                    <label for="dest-input">Destination</label>
+                    <input class="form-control" id="destination" type="text" placeholder='108 Poplar St, College Station TX'>
+                    <button class="btn btn-info" id="submit" type="submit">Find!</button>
+                </form>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <footer class="page-footer black">
+        <div class="container">
+ 
+        </div>
+    </footer>
+
+
+    <!--  Scripts -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="./assets/js/geocode.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZc26olKXCG0MneliIFp7OY2lj1mbG8ZE&callback=centerMap" async
+        defer></script>
+</body>
+
+</html>
