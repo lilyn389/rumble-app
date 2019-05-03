@@ -44,16 +44,17 @@
 </nav>
 
    <div class="profile">
-        <img src="torchystacos.jpg" alt="">
+        <body onload="readFile();">
+        <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <div id="output"></div>
         <div class="details">
-            <h2>Torchy's<br><span>Tacos</span></h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div>
-    </div>
-    <script src="main.js"></script>
+            <div id="input"></div>
+            <input type="button" id='script' name="scriptbutton" value=" Next " onclick="goPython()">
 
+        </div>
+        </body>
+    </div>
 </body>
 </html>
 
